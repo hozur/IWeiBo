@@ -15,8 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.MainActivity"></activity>
-        <activity android:name=".view.BaseActivity"></activity>
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.BaseActivity" />
+
+        <service
+            android:name=".logic.MainService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
